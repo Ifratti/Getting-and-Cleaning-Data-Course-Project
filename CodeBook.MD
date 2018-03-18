@@ -10,7 +10,7 @@ The following abreviations were expanded out:
 I did not change std or Freq since it is clear what those abrivations mean.  
 
 I also put '.' between each word and made all the letters lowercase for ease of reading and use.
-
+Please refer to the features_info.txt for more information about the variables.
 ##Tidy Data
 
 The tidy data is the average of each mean and stardard deviation of all the variables in the original data set broken out by  
