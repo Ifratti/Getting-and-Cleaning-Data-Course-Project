@@ -11,9 +11,9 @@ names(activities)<-c("id","activity.name")
 #merge them later
 fitdatacleanup<- function(folder){
     #reads data into R
-    sub<- read.table(paste0(folder,'/subject_',folder,'.txt'))
-    x<- read.table(paste0(folder,'/X_',folder,'.txt'))
-    y<- read.table(paste0(folder,'/y_',folder,'.txt'))
+    sub<- read.table(paste0('./Data/',folder,'/subject_',folder,'.txt'))
+    x<- read.table(paste0('./Data/',folder,'/X_',folder,'.txt'))
+    y<- read.table(paste0('./Data/',folder,'/y_',folder,'.txt'))
 
     #Names Columns
     names(sub)<-"subject"
